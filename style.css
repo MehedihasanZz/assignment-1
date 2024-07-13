@@ -194,4 +194,59 @@ body {
   margin: 0 auto;
   margin-right: 4px;
 }
-/* skill section  */
+ /* my inspiration section  */
+ .banner-section-inspiration {
+    width: 1140px;
+    height: 775px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+  }
+  .my-inspiration {
+    width: 852px;
+    height: 113px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-inspiration h1 {
+    width: 852px;
+    height: 37px;
+    margin: 5px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .my-inspiration p {
+    width: 852px;
+    height: 52px;
+    margin: 10px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .youtube {
+    width: 1076px;
+    height: 550px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+    border-radius: 16px;
+  
+  background: url(Jhankar);
+  }
+  /* my inspirition section end  */
