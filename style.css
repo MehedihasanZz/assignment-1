@@ -12,7 +12,7 @@ body {
 .banner-section-container {
   max-width: 1440px;
   height: 652px;
-  border: 1px dashed ;
+  border: 1px dashed;
   margin: 0 auto;
   background-image: url("./assets/Hero-bg.png");
 }
@@ -137,12 +137,10 @@ body {
   margin: 48px 48px;
   display: flex;
   flex-direction: row;
-
 }
 .description {
   width: 477px;
   height: 220px;
-
 }
 .description h3 {
   width: 390px;
@@ -194,59 +192,137 @@ body {
   margin: 0 auto;
   margin-right: 4px;
 }
- /* my inspiration section  */
- .banner-section-inspiration {
-    width: 1140px;
-    height: 775px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
-  }
-  .my-inspiration {
-    width: 852px;
-    height: 113px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .my-inspiration h1 {
-    width: 852px;
-    height: 37px;
-    margin: 5px 0px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .my-inspiration p {
-    width: 852px;
-    height: 52px;
-    margin: 10px 0px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .youtube {
-    width: 1076px;
-    height: 550px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 30px;
-    border-radius: 16px;
-  
+/* my inspiration section  */
+.banner-section-inspiration {
+  width: 1140px;
+  height: 775px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+.my-inspiration {
+  width: 852px;
+  height: 113px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-inspiration h1 {
+  width: 852px;
+  height: 37px;
+  margin: 5px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.my-inspiration p {
+  width: 852px;
+  height: 52px;
+  margin: 10px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.youtube {
+  width: 1076px;
+  height: 550px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+  border-radius: 16px;
+
   background: url(Jhankar);
-  }
-  /* my inspirition section end  */
+}
+/* my inspirition section end  */
+
+/* My current target  */
+.skill {
+  width: 1140px;
+  height: 463px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+
+/* My current target end  */
+
+/* skill section 1 2 3  */
+.skill-card-all {
+  width: 1100px;
+  height: 300px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.skill-description-card123 {
+  width: 364px;
+  height: 300px;
+  /* border: 2px solid red; */
+  padding: 40px;
+}
+
+
+
+/* my next target  */
+.my-next-target-card{
+  width: 1140px;
+height: 871px;
+/* border: 2px solid red; */
+margin: 0 auto;
+}
+.skill-card-rnm{
+  width: 1140px;
+height: 220px;
+/* border: 2px solid red; */
+padding: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.react-img{
+  width: 94.78px;
+height: 108px;
+margin: 0px 24px;
+}
+.react-all{
+  width: 941.22px;
+height: 140px;
+/* border: 2px solid red; */
+margin: 16px 0px;
+}
+.react-all button{
+margin-top: 40px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.react-all-nodejs{
+
+margin: 16px 0px;
+margin: 3px 30px;
+  /* border: 2px solid red; */
+}
