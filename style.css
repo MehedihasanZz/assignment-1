@@ -290,7 +290,12 @@ margin: 0 auto;
 .skill-card-rnm{
   width: 1140px;
 height: 220px;
-/* border: 2px solid red; */
+border: 2px solid red;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
 padding: 40px;
 display: flex;
 flex-direction: row;
@@ -325,4 +330,100 @@ text-decoration-line: underline;
 margin: 16px 0px;
 margin: 3px 30px;
   /* border: 2px solid red; */
+}
+/* footer part  */
+.support{
+  width: 1140px;
+  height: 314px;
+  
+border: 2px solid red;
+margin: 0 auto;
+background-image: url("./assets/handshake.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-size:1140px 314px;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
+
+/* need support  */
+.i-need-support{
+  width: 1044px;
+height: 186px;
+border: 2px solid red;
+}
+.need-support{
+  width: 730px;
+  height: 104px;
+border: 2px solid red;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.need-support h1{
+  
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.need-support p{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.submit-btm{
+  width: 730px;
+height: 57px;
+border: 2px solid red;
+margin: 0 auto;
+display: flex;
+}
+.submit-btn-text{
+  width: 120px;
+height: 58px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+/* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; */
+/* padding: 17px 20px 17px 20px; */
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.submit-btm input{
+  width: 550px;
+height: 57px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
 }
